@@ -14,9 +14,9 @@ app.use(cors(corsOptions));
 
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/notes", require("./routes/notes"));
-app.get("/", (req, res) => {
-  res.send("meow homeage");
-});
+// app.get("/", (req, res) => {
+//   res.send("meow homeage");
+// });
 
 app.listen(port, () => {
   console.log(`http://localhost:${port} express working`);
