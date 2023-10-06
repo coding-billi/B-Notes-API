@@ -6,7 +6,7 @@ connectToMongo();
 const app = express();
 const port = 5000;
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://b-notes.netlify.app",
 };
 
 app.use(express.json());
